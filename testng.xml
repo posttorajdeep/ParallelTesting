@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="instances">
+    <test verbose="2" preserve-order="true" name="TestSuite" parallel="true" thread-count="5" >
+        <classes>
+            <class name="TestCases.Portal_A"  >
+
+            </class>
+           <!-- <class name="TestCases.Portal_B">
+                <methods>
+                    <include name="testPortalB"/>
+                </methods>
+            </class>
+            <class name="TestCases.Portal_C">
+                <methods>
+                    <include name="testPortalC"/>
+                </methods>
+            </class>
+            <class name="TestCases.Portal_D">
+                <methods>
+                    <include name="testPortalD"/>
+                </methods>
+            </class>
+            <class name="TestCases.Portal_E">
+                <methods>
+                    <include name="testPortalE"/>
+                </methods>
+            </class>
+            <class name="TestCases.Portal_F">
+                <methods>
+                    <include name="testPortalF"/>
+                </methods>
+            </class>
+            <class name="TestCases.Portal_G">
+                <methods>
+                    <include name="testPortalG"/>
+                </methods>
+            </class>
+            <class name="TestCases.Portal_H">
+                <methods>
+                    <include name="testPortalH"/>
+                </methods>
+            </class>
+            <class name="TestCases.Portal_I">
+                <methods>
+                    <include name="testPortalI"/>
+                </methods>
+            </class>
+            <class name="TestCases.Portal_J">
+                <methods>
+                    <include name="testPortalJ"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite>
